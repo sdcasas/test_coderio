@@ -1,0 +1,24 @@
+# ide and tools extra
+# .gitignore
+*.idea/
+*.orig
+*.sublime-project
+*.sublime-workspace
+*.project
+*.ipynb*
+*.coverage
+.vscode/
+
+# archivos temporales
+*.pyc
+*.pyo
+*.bak
+*.bak2
+*.log
+*.db
+*.pid
+*.rdb
+*/__pycache__/
+
+# migrations
+src/apps/*/migrations/0*
